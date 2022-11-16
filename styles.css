@@ -16,6 +16,7 @@ body {
 }
 .link {
   text-decoration: none;
+  cursor: default;
 }
 .header {
   background: #ffffff;
@@ -38,8 +39,7 @@ body {
 /*--------------header-------------*/
 
 .logo-web {
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Raleway";
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -47,7 +47,7 @@ body {
 }
 
 .logo {
-  font-style: normal;
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -55,8 +55,6 @@ body {
   color: black;
 }
 .header-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -126,7 +124,6 @@ body {
 .feature-item {
 }
 .feature-name {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -144,7 +141,6 @@ body {
 .work {
 }
 .work-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -161,7 +157,6 @@ body {
 .team {
 }
 .team-text {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -193,17 +188,16 @@ body {
 }
 /*--------------footer-------------*/
 
-.logo-footer {
+.logo-white-footer {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: white;
+  color: var(--second-h-color);
 }
 
-.logo-web-white {
+.logo-web {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -234,6 +228,8 @@ body {
 }
 
 /*----------------menu-buttons----------------*/
+.menu-buttons {
+}
 .text-menu {
   position: absolute;
   width: 1px;
@@ -244,10 +240,32 @@ body {
   white-space: nowrap;
   overflow: hidden;
 }
-.menu-buttons {
+.buttons-all:hover,
+.buttons-all:focus {
+  background-color: var(--accent-color);
+  color: var(--second-h-color);
 }
-.menu-buttons:hover,
-.menu-buttons:focus {
+
+.buttons-veb:hover,
+.buttons-veb:focus {
+  background-color: var(--accent-color);
+  color: var(--second-h-color);
+}
+
+.buttons-appendix:hover,
+.buttons-appendix:focus {
+  background-color: var(--accent-color);
+  color: var(--second-h-color);
+}
+
+.buttons-design:hover,
+.buttons-design:focus {
+  background-color: var(--accent-color);
+  color: var(--second-h-color);
+}
+
+.buttons-marketing:hover,
+.buttons-marketingfocus {
   background-color: var(--accent-color);
   color: var(--second-h-color);
 }
@@ -281,7 +299,6 @@ body {
 .portfolio-img {
 }
 .portfolio-after-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
